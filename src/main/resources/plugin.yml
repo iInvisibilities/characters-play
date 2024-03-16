@@ -1,0 +1,15 @@
+name: character
+version: '${project.version}'
+main: me.invis.character.Characters
+api-version: '1.19'
+softdepend:
+  - PlaceholderAPI
+commands:
+  character:
+    aliases: [characterof]
+  createcharacter:
+    aliases: [createchar, newchar, newcharacter]
+  wardrobe:
+    aliases: [characters]
+  setcharacterage:
+    aliases: [setage, changeage, charage, characterage]
