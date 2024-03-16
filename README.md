@@ -18,7 +18,9 @@ Perfect for role-play servers
 
 ## Character slots limit (default limit is 2 slots)
  `wardrobe.slots.three` - maximum of 3 character slots
+
  `wardrobe.slots.four` - maximum of 4 character slots
+
  `wardrobe.slots.six` - maximum of 6 character slots
 
 ## PlaceholderAPI
@@ -26,6 +28,8 @@ Perfect for role-play servers
 
 ## Caveats
  Players without the permission `character.age.restriction` will have an age-setting restriction of 21.
+
  This plugin can't operate on offline players, meaning you won't be able to access/see an offline player's character.
+
  This plugin hasn't been tested on versions except 1.19.4, but no NMS usage was included as said above, so there is a high chance it works with other versions aswell!
  
