@@ -8,7 +8,7 @@ Perfect for role-play servers
 - highly customizable
 - persistent throughout players
 
-> `/characters` - Opens the characters gui where you can select your identity!
+> `/characters` - Opens the characters gui where you can select your identity!\n
 > `/createcharacter` - Allows the individual to create characters!
 > `/character <player>` - Shows you what character another player is playing!
 > `/setcharacterage <player> [character-id] [new-age]` - Allows players with permission `character.change.age` to change another player's character age
