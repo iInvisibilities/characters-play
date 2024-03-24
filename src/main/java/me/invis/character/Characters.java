@@ -1,12 +1,11 @@
 package me.invis.character;
 
-import me.invis.character.command.CharacterCommand;
-import me.invis.character.command.CreateCharacterCommand;
-import me.invis.character.command.SetCharacterAgeCommand;
-import me.invis.character.command.WardrobeCommand;
+import me.invis.character.command.*;
+import me.invis.character.listener.ShowPlayerCharacter;
 import me.invis.character.manager.character.CharactersManager;
 import me.invis.character.manager.wardrobe.WardrobesManager;
 import me.invis.character.placeholders.CharactersExpansion;
+import me.invis.character.signature.SignatureCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -28,7 +27,11 @@ public final class Characters extends JavaPlugin {
         getCommand("createcharacter").setExecutor(new CreateCharacterCommand(this));
         getCommand("character").setExecutor(new CharacterCommand());
         getCommand("setcharacterage").setExecutor(new SetCharacterAgeCommand());
+        getCommand("whomadethis").setExecutor(new SignatureCommand());
+        getCommand("setcharacterdescription").setExecutor(new SetCharacterDescriptionCommand());
         if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")) new CharactersExpansion().register();
+
+        Bukkit.getPluginManager().registerEvents(new ShowPlayerCharacter(), this);
 
     }
 

@@ -1,8 +1,7 @@
 package me.invis.character.ui.charactercreation;
 
-import me.invis.character.manager.character.data.Character;
+import me.invis.character.manager.character.impl.Character;
 import me.invis.character.util.StringUtil;
-import org.bukkit.ChatColor;
 import org.bukkit.conversations.*;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
@@ -53,7 +52,7 @@ public class CharacterSetupConversation {
             @NotNull
             @Override
             public String getPromptText(@NotNull ConversationContext conversationContext) {
-                return " ⦿ Character age?" + (isAgeRestriction(conversationContext) ? " ( < 21)" : "");
+                return " ⦿ Character age?" + (isAgeRestriction(conversationContext) ? " (between 14 and 21)" : " ( > 14)");
             }
 
             @Nullable
@@ -63,7 +62,7 @@ public class CharacterSetupConversation {
                 if(!StringUtil.isInt(s)) return askForAge();
 
                 int age = Integer.parseInt(s);
-                if(isAgeRestriction(conversationContext) && age > 21) return askForAge();
+                if(age < 14 || (isAgeRestriction(conversationContext) && age > 21)) return askForAge();
 
                 setAge(age);
                 setupNewCharacter();

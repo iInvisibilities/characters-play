@@ -22,4 +22,8 @@ public class CommandUtil {
         return true;
     }
 
+    public static String getStringFromArgs(String[] args) {
+        return String.join(" ", args);
+    }
+
 }

@@ -1,7 +1,7 @@
 package me.invis.character.manager.wardrobe;
 
-import me.invis.character.manager.wardrobe.wardrobe.Wardrobe;
-import me.invis.character.manager.wardrobe.data.WardrobeDataType;
+import me.invis.character.manager.wardrobe.impl.Wardrobe;
+import me.invis.character.manager.wardrobe.datatype.WardrobeDataType;
 import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;

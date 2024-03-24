@@ -2,9 +2,9 @@ package me.invis.character.ui.wardrobe.item;
 
 import me.invis.character.Characters;
 import me.invis.character.manager.character.CharactersManager;
-import me.invis.character.manager.character.data.Character;
+import me.invis.character.manager.character.impl.Character;
 import me.invis.character.manager.wardrobe.WardrobesManager;
-import me.invis.character.manager.wardrobe.wardrobe.WardrobeManager;
+import me.invis.character.manager.wardrobe.impl.WardrobeManager;
 import me.invis.character.ui.wardrobe.WardrobeGUI;
 import me.invis.character.util.StringUtil;
 import org.bukkit.ChatColor;

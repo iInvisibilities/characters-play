@@ -3,7 +3,7 @@ package me.invis.character.command;
 import me.invis.character.Characters;
 import me.invis.character.command.util.CommandUtil;
 import me.invis.character.manager.character.CharactersManager;
-import me.invis.character.manager.character.data.Character;
+import me.invis.character.manager.character.impl.Character;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

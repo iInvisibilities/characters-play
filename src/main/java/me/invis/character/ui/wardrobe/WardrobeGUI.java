@@ -2,10 +2,10 @@ package me.invis.character.ui.wardrobe;
 
 import me.invis.character.Characters;
 import me.invis.character.ui.wardrobe.item.CharacterItem;
-import me.invis.character.manager.character.data.Character;
+import me.invis.character.manager.character.impl.Character;
 import me.invis.character.manager.wardrobe.WardrobesManager;
 import me.invis.character.manager.wardrobe.slots.SlotsManager;
-import me.invis.character.manager.wardrobe.wardrobe.Wardrobe;
+import me.invis.character.manager.wardrobe.impl.Wardrobe;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import xyz.xenondevs.invui.gui.Gui;

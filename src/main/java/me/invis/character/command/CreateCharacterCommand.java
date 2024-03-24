@@ -2,11 +2,11 @@ package me.invis.character.command;
 
 import me.invis.character.Characters;
 import me.invis.character.ui.charactercreation.CharacterSetupConversation;
-import me.invis.character.manager.character.data.Character;
+import me.invis.character.manager.character.impl.Character;
 import me.invis.character.manager.wardrobe.WardrobesManager;
 import me.invis.character.manager.wardrobe.slots.SlotsManager;
-import me.invis.character.manager.wardrobe.wardrobe.Wardrobe;
-import me.invis.character.manager.wardrobe.wardrobe.WardrobeManager;
+import me.invis.character.manager.wardrobe.impl.Wardrobe;
+import me.invis.character.manager.wardrobe.impl.WardrobeManager;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

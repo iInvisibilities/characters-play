@@ -2,7 +2,7 @@ package me.invis.character.manager.wardrobe.slots;
 
 import me.invis.character.Characters;
 import me.invis.character.manager.wardrobe.WardrobesManager;
-import me.invis.character.manager.wardrobe.wardrobe.Wardrobe;
+import me.invis.character.manager.wardrobe.impl.Wardrobe;
 import org.bukkit.entity.Player;
 
 public class SlotsManager {

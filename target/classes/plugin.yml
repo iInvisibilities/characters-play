@@ -5,6 +5,7 @@ api-version: '1.19'
 softdepend:
   - PlaceholderAPI
 commands:
+  whomadethis:
   character:
     aliases: [characterof]
   createcharacter:
@@ -13,3 +14,5 @@ commands:
     aliases: [characters]
   setcharacterage:
     aliases: [setage, changeage, charage, characterage]
+  setcharacterdescription:
+    aliases: [setmydescription, changedescription]

@@ -1,7 +1,7 @@
 package me.invis.character.manager.character;
 
-import me.invis.character.manager.character.data.Character;
-import me.invis.character.manager.character.data.CharacterDataType;
+import me.invis.character.manager.character.impl.Character;
+import me.invis.character.manager.character.impl.CharacterDataType;
 import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.persistence.PersistentDataContainer;

@@ -3,7 +3,7 @@ package me.invis.character.placeholders;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import me.invis.character.Characters;
 import me.invis.character.manager.character.CharactersManager;
-import me.invis.character.manager.character.data.Character;
+import me.invis.character.manager.character.impl.Character;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
